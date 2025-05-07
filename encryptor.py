@@ -11,4 +11,4 @@ class Encryptor:
         return self.fernet.encrypt(data.encode()).decode()
 
     def decrypt(self, token):
-        return self.fernet.decrypt(token.encode()).decode(
+        return self.fernet.decrypt(token.encode()).decode()
