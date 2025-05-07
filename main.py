@@ -1,6 +1,8 @@
-def main():
-    print("Hello from pwd-manager!")
+import tkinter as tk
+from tkinter import messagebox, simpledialog
+import json
+import os
+from cryptography.fernet import Fernet
+import base64
+import hashlib
 
-
-if __name__ == "__main__":
-    main()
